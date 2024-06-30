@@ -1,0 +1,8 @@
+<div class="container">
+  <app-password-input
+    (ngModelChange)="onPasswordChange($event)"
+  ></app-password-input>
+  <app-password-strength-checker
+    [password]="password"
+  ></app-password-strength-checker>
+</div>
